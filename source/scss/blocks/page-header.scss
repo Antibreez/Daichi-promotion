@@ -8,6 +8,7 @@
 
   background-color: #fff;
   box-shadow: 0 6px 22px -2px hsla(0,0%,78%,.5);
+  z-index: 100;
 
   &__container {
     @include container;
