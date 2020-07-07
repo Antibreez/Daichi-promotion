@@ -1,0 +1,30 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  height: 65px;
+  width: 100%;
+
+  background-color: #fff;
+  box-shadow: 0 6px 22px -2px hsla(0,0%,78%,.5);
+
+  &__container {
+    @include container;
+
+    display: flex;
+    height: 100%;
+  }
+
+  &__logo-link {
+    display: flex;
+    width: 120px;
+    height: 45px;
+    margin: auto auto auto 0;
+  }
+
+  &__logo-img {
+    max-width: 100%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,17 @@
+// vendor
+@import "vendor/normalize.scss";
+@import "vendor/swiper.scss";
+
+// general
+@import "general/variables.scss";
+@import "general/mixins.scss";
+@import "general/fonts.scss";
+@import "general/global.scss";
+
+// blocks
+@import "blocks/promotion.scss";
+@import "blocks/promotion-ftxb.scss";
+@import "blocks/page-header.scss";
+@import "blocks/promotion-participant.scss";
+@import "blocks/promotion-terms.scss";
+@import "blocks/promotion-result.scss";

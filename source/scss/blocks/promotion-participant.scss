@@ -1,0 +1,62 @@
+.promotion-participants {
+  margin-bottom: 25px;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    @include section-title;
+
+    margin-bottom: 20px;
+  }
+
+  &__desc {
+    @include desc-font;
+    //margin: 0;
+    margin-bottom: 40px;
+    padding: 0 40px;
+
+    // font-weight: 100;
+    // font-size: 24px;
+    // line-height: 32px;
+    // color: #000;
+
+    & b {
+      font-weight: bold;
+    }
+  }
+
+  &__units {
+    padding: 0 40px;
+  }
+
+  &__units-desc {
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  &__units-logo {
+    width: 160px;
+    height: 34px;
+    margin-bottom: 15px;
+  }
+
+  &__units-img {
+    width: 100%;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

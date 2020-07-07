@@ -1,0 +1,80 @@
+.promotion-result {
+  padding-bottom: 100px;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    @include section-title;
+
+    margin-bottom: 20px;
+  }
+
+  &__wrapper {
+    padding: 16px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0 auto 65px;
+
+    background-color: #f6f6f6;
+  }
+
+  &__label {
+    margin: 0;
+    margin-bottom: 2px;
+
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  &__content {
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  &__date {
+    width: 40%;
+    margin-right: 20px;
+  }
+
+  &__winner-1,
+  &__winner-2 {
+    width: calc(60% - 20px);
+  }
+
+  &__winner-1 {
+    margin-bottom: 15px;
+  }
+
+  &__winner-2 {
+    margin-left: auto;
+  }
+
+  &__remark {
+    margin: 0;
+
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  &__connection {
+    @include desc-font;
+    //margin: 0;
+    padding: 0 40px;
+
+    // font-weight: 100;
+    // font-size: 24px;
+    // line-height: 30px;
+  }
+}
