@@ -277,7 +277,7 @@
 @include tablet {
   .promotion {
     max-width: 720px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
 
     &__container {
       padding: 0;
@@ -374,6 +374,8 @@
 
 @include mobile {
   .promotion {
+    margin-bottom: 50px;
+    
     &__container {
       @include container;
 

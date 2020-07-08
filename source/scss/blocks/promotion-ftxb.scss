@@ -20,3 +20,27 @@
     margin-bottom: 95px;
   }
 }
+
+@include tablet {
+  .promotion-ftxb {
+    padding-top: 0;
+
+    &__title,
+    &__slogan {
+      padding: 0 40px;
+    }
+
+    &__slogan {
+      margin-bottom: 60px;
+    }
+  }
+}
+
+@include mobile {
+  .promotion-ftxb {
+    &__title,
+    &__slogan {
+      padding: 0 5%;
+    }
+  }
+}

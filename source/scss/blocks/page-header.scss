@@ -29,3 +29,18 @@
     margin: auto;
   }
 }
+
+@include tablet {
+  .page-header {
+    position: static;
+
+    margin-bottom: 30px;
+
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+
+    &__logo-link {
+      margin: auto;
+    }
+  }
+}
