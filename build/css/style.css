@@ -1866,6 +1866,36 @@ a {
   line-height: 22px;
 }
 
+.promotion-terms__remark-container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-terms__remark-container {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-terms__remark-container {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-terms__remark-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 .promotion-terms__remark {
   margin: 0;
   font-weight: 100;
@@ -2044,6 +2074,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
