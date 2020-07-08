@@ -60,3 +60,11 @@
     // line-height: 30px;
   }
 }
+
+@include desktop {
+  .promotion-terms {
+    &__item {
+      max-width: 300px;
+    }
+  }
+}

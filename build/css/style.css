@@ -1493,8 +1493,8 @@ a {
 
 @media (max-width: 1599px) {
   .promotion-ftxb__title, .promotion-ftxb__slogan {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 
@@ -1613,8 +1613,8 @@ a {
 
 @media (max-width: 1599px) {
   .promotion-participants__title {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 
@@ -1633,6 +1633,13 @@ a {
   color: #000;
   margin-bottom: 40px;
   padding: 0 40px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-participants__desc {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
 
 .promotion-participants__desc b {
@@ -1716,8 +1723,8 @@ a {
 
 @media (max-width: 1599px) {
   .promotion-terms__title {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 
@@ -1772,6 +1779,19 @@ a {
   padding: 0 40px;
 }
 
+@media (max-width: 1599px) {
+  .promotion-terms__remark {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 1599px) {
+  .promotion-terms__item {
+    max-width: 300px;
+  }
+}
+
 .promotion-result {
   padding-bottom: 100px;
 }
@@ -1817,8 +1837,8 @@ a {
 
 @media (max-width: 1599px) {
   .promotion-result__title {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 32px;
+    line-height: 42px;
   }
 }
 
@@ -1897,4 +1917,11 @@ a {
   line-height: 32px;
   color: #000;
   padding: 0 40px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-result__connection {
+    font-size: 22px;
+    line-height: 30px;
+  }
 }
