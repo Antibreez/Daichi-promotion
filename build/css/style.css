@@ -2172,3 +2172,494 @@ a {
     margin-right: auto;
   }
 }
+
+.promotion-r32 {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.promotion-r32__title {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin: 0 auto 50px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 38px;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__title {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__title {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__title {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__leadership {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__leadership {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__leadership {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__leadership {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__leadership-image {
+  min-width: 360px;
+  height: 500px;
+  margin-right: 80px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1))), url("../img/building.jpg") top center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.1)), url("../img/building.jpg") top center/cover no-repeat;
+}
+
+.promotion-r32__leadership-desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #7a7a7a;
+}
+
+.promotion-r32__desc {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__desc {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__desc {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__desc {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__series {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__series {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__series {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__series {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__series-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+.promotion-r32__series-logo {
+  width: 160px;
+  height: 34px;
+  margin-bottom: 25px;
+}
+
+.promotion-r32__series-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.promotion-r32__series-brand {
+  width: 30%;
+}
+
+.promotion-r32__brand-title {
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000;
+}
+
+.promotion-r32__series-list {
+  margin: 0;
+  padding: 0;
+}
+
+.promotion-r32__series-item {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+.promotion-r32__slogan {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-bottom: 100px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #7a7a7a;
+  text-align: center;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__slogan {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__slogan {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__slogan {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__mobile-control {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__mobile-control {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__mobile-control {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__mobile-control {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__mobile-control-logo {
+  width: 325px;
+  height: 72px;
+  margin-bottom: 50px;
+  background-image: url("../img/mobile-control-logo.svg");
+  background-repeat: no-repeat;
+}
+
+.promotion-r32__services-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #7a7a7a;
+}
+
+.promotion-r32__services-desc {
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+.promotion-r32__app {
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto 50px;
+}
+
+.promotion-r32__app-icon {
+  width: 120px;
+  height: 120px;
+  margin-right: 30px;
+  margin-bottom: 25px;
+  background-image: url("../img/icon-app-final.svg");
+}
+
+.promotion-r32__app-links {
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-bottom: 25px;
+}
+
+.promotion-r32__app-links-title {
+  margin: 0;
+  font-weight: 400px;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.promotion-r32__app-links-title span {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.promotion-r32__google-link {
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  margin-top: -1px;
+  background-image: url("../img/google.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.promotion-r32__appstore-link {
+  display: inline-block;
+  width: 120px;
+  height: 35px;
+  margin-left: auto;
+  background-image: url("../img/apple.svg");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.promotion-r32__mobile-control-image {
+  min-width: 100%;
+  height: 460px;
+  background: url("../img/app-showcase-icon-mobile.png") center left calc(50% - 20px)/cover no-repeat, -webkit-gradient(linear, left top, left bottom, from(#7FB0F8), to(#D5D3FF));
+  background: url("../img/app-showcase-icon-mobile.png") center left calc(50% - 20px)/cover no-repeat, linear-gradient(180deg, #7FB0F8, #D5D3FF);
+}
+
+.promotion-r32__mobile-control-link, .promotion-r32__climat-online-link {
+  display: block;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  text-align: center;
+  color: #00adef;
+  text-decoration: none;
+}
+
+.promotion-r32__climat-online {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__climat-online {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__climat-online {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__climat-online {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__climat-online-logo {
+  width: 265px;
+  height: 72px;
+  margin-bottom: 50px;
+  background-image: url("../img/climat-online-logo.svg");
+  background-repeat: no-repeat;
+}
+
+.promotion-r32__climat-online-tel-link {
+  color: #7a7a7a;
+}
+
+.promotion-r32__climat-online-image {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto 50px;
+  background-image: url("../img/daichi-climat-online.jpg");
+  background-position: center left calc(50% - 120px);
+  background-size: auto 100%;
+}
+
+.promotion-r32__terms-container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-left: 96px;
+  padding-right: 96px;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__terms-container {
+    max-width: 1024px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32__terms-container {
+    padding-left: 3.2%;
+    padding-right: 3.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__terms-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.promotion-r32__terms {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 28px;
+  color: #7a7a7a;
+}
+
+@media (max-width: 1599px) {
+  .promotion-r32__series-item {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .promotion-r32 {
+    padding-top: 0;
+  }
+  .promotion-r32__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .promotion-r32__leadership-image {
+    margin-right: 30px;
+  }
+  .promotion-r32__leadership-desc, .promotion-r32__slogan, .promotion-r32__services-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .promotion-r32__desc, .promotion-r32__services-desc, .promotion-r32__climat-online-link, .promotion-r32__mobile-control-link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

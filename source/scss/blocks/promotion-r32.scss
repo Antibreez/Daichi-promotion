@@ -1,0 +1,314 @@
+.promotion-r32 {
+    padding-top: 120px;
+    padding-bottom: 100px;
+
+    &__title {
+        @include container;
+
+        margin: 0 auto 50px;
+
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 38px;
+        text-align: center;
+        color: #7a7a7a;
+    }
+
+    &__leadership {
+        @include container;
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    &__leadership-image {
+        min-width: 360px;
+        height: 500px;
+        margin-right: 80px;
+
+        background: 
+            linear-gradient(rgba(0,0,0,0.1)),
+            url('../img/building.jpg') top center/cover no-repeat;
+        
+    }
+
+    &__leadership-desc {
+        margin: 0;
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #7a7a7a;
+    }
+
+    &__desc {
+        @include container;
+
+        margin-bottom: 50px;
+
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        color: #7a7a7a;
+    }
+
+    &__series {
+        @include container;
+
+        margin-bottom: 100px;
+    }
+
+    &__series-title {
+        margin: 0;
+        margin-bottom: 25px;
+
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        color: #7a7a7a;
+    }
+
+    &__series-logo {
+        width: 160px;
+        height: 34px;
+        margin-bottom: 25px;
+    }
+
+    &__series-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__series-brand {
+        width: 30%;
+    }
+
+    &__brand-title {
+        margin: 0;
+        margin-bottom: 15px;
+
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000;
+    }
+
+    &__series-list {
+        margin: 0;
+        padding: 0;
+    }
+
+    &__series-item {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #7a7a7a;
+    }
+
+    &__slogan {
+        @include container;
+
+        margin-bottom: 100px;
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #7a7a7a;
+        text-align: center;
+    }
+
+    &__mobile-control {
+        @include container;
+
+        margin-bottom: 50px;
+    }
+
+    &__mobile-control-logo {
+        width: 325px;
+        height: 72px;
+        margin-bottom: 50px;
+
+        background-image: url('../img/mobile-control-logo.svg');
+        background-repeat: no-repeat;
+    }
+
+    &__services-title {
+        margin: 0;
+        margin-bottom: 25px;
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        color: #7a7a7a;
+    }
+
+    &__services-desc {
+        margin-bottom: 50px;
+
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        color: #7a7a7a;
+    }
+
+    &__app {
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto 50px;
+    }
+
+    &__app-icon {
+        width: 120px;
+        height: 120px;
+        margin-right: 30px;
+        margin-bottom: 25px;
+
+        background-image: url('../img/icon-app-final.svg');
+    }
+
+    &__app-links {
+        width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    &__app-links-title {
+        margin: 0;
+
+        font-weight: 400px;
+        font-size: 23px;
+        line-height: 28px;
+
+        &  span {
+            font-size: 18px;
+            line-height: 20px;
+        }
+    }
+
+    &__google-link {
+        display: inline-block;
+        width: 120px;
+        height: 36px;
+        margin-top: -1px;
+
+        background-image: url('../img/google.svg');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    &__appstore-link {
+        display: inline-block;
+        width: 120px;
+        height: 35px;
+        margin-left: auto;
+
+        background-image: url('../img/apple.svg');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    &__mobile-control-image {
+        min-width: 100%;
+        height: 460px;
+        
+        background: 
+            url('../img/app-showcase-icon-mobile.png') center left calc(50% - 20px)/ cover no-repeat,
+            linear-gradient(180deg, #7FB0F8, #D5D3FF);
+    }
+
+    &__mobile-control-link,
+    &__climat-online-link {
+        display: block;
+
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        text-align: center;
+        color: #00adef;
+        text-decoration: none;
+    }
+
+    &__climat-online {
+        @include container;
+
+        margin-bottom: 100px;
+    }
+
+    &__climat-online-logo {
+        width: 265px;
+        height: 72px;
+        margin-bottom: 50px;
+
+        background-image: url('../img/climat-online-logo.svg');
+        background-repeat: no-repeat;
+    }
+
+    &__climat-online-tel-link {
+        color: #7a7a7a;
+    }
+
+    &__climat-online-image {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto 50px;
+
+        background-image: url('../img/daichi-climat-online.jpg');
+        background-position: center left calc(50% - 120px);
+        background-size: auto 100%;
+    }
+
+    &__terms-container {
+        @include container;
+    }
+
+    &__terms {
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 28px;
+        color: #7a7a7a;
+    }
+}
+
+@include desktop {
+    .promotion-r32 {
+        &__series-item {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}
+
+@include tablet {
+    .promotion-r32 {
+        padding-top: 0;
+
+        &__title {
+            font-size: 28px;
+            line-height: 32px;
+        }
+
+        &__leadership-image {
+            margin-right: 30px;
+        }
+
+        &__leadership-desc,
+        &__slogan,
+        &__services-title {
+            font-size: 24px;
+            line-height: 28px;
+        }
+
+        &__desc,
+        &__services-desc,
+        &__climat-online-link,
+        &__mobile-control-link {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}
