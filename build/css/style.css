@@ -2514,8 +2514,8 @@ a {
 
 .promotion-r32__google-link {
   display: inline-block;
-  width: 120px;
-  height: 36px;
+  width: 123px;
+  height: 37px;
   margin-top: -1px;
   background-image: url("../img/google.svg");
   background-repeat: no-repeat;
@@ -2661,5 +2661,118 @@ a {
   .promotion-r32__desc, .promotion-r32__services-desc, .promotion-r32__climat-online-link, .promotion-r32__mobile-control-link {
     font-size: 20px;
     line-height: 24px;
+  }
+  .promotion-r32__series-logo {
+    width: auto;
+    max-width: 288px;
+  }
+  .promotion-r32__series-wrapper {
+    max-width: 288px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .promotion-r32__series-brand {
+    width: 100%;
+  }
+  .promotion-r32__series-brand:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .promotion-r32__title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .promotion-r32__leadership {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .promotion-r32__leadership-desc {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .promotion-r32__leadership-image {
+    min-width: auto;
+    width: 100%;
+    max-width: 340px;
+    height: 450px;
+    margin: 0;
+    background-position: top center;
+  }
+  .promotion-r32__desc, .promotion-r32__services-desc, .promotion-r32__climat-online-link, .promotion-r32__mobile-control-link {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .promotion-r32__series-title, .promotion-r32__slogan, .promotion-r32__services-title {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .promotion-r32__series-logo {
+    text-align: center;
+    margin: 0 auto 25px;
+  }
+  .promotion-r32__series-wrapper {
+    margin: 0 auto;
+  }
+  .promotion-r32__series-brand {
+    text-align: center;
+  }
+  .promotion-r32__mobile-control-logo {
+    width: 250px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-size: cover;
+  }
+  .promotion-r32__app {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .promotion-r32__app-icon {
+    margin-right: 0;
+  }
+  .promotion-r32__app-links {
+    text-align: center;
+  }
+  .promotion-r32__app-links-title {
+    margin-bottom: 25px;
+  }
+  .promotion-r32__mobile-control-image {
+    height: auto;
+    padding-top: 115%;
+  }
+  .promotion-r32__climat-online {
+    margin-bottom: 80px;
+  }
+  .promotion-r32__climat-online-logo {
+    width: 202px;
+    height: 55px;
+    margin: 0 auto 30px;
+    background-size: cover;
+  }
+  .promotion-r32__climat-online-image {
+    width: 100%;
+    max-width: 400px;
+  }
+  .promotion-r32__terms-container {
+    text-align: center;
   }
 }

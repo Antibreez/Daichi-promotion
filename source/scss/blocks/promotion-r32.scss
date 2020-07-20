@@ -27,10 +27,10 @@
         height: 500px;
         margin-right: 80px;
 
-        background: 
+        background:
             linear-gradient(rgba(0,0,0,0.1)),
             url('../img/building.jpg') top center/cover no-repeat;
-        
+
     }
 
     &__leadership-desc {
@@ -192,8 +192,8 @@
 
     &__google-link {
         display: inline-block;
-        width: 120px;
-        height: 36px;
+        width: 123px;
+        height: 37px;
         margin-top: -1px;
 
         background-image: url('../img/google.svg');
@@ -215,8 +215,8 @@
     &__mobile-control-image {
         min-width: 100%;
         height: 460px;
-        
-        background: 
+
+        background:
             url('../img/app-showcase-icon-mobile.png') center left calc(50% - 20px)/ cover no-repeat,
             linear-gradient(180deg, #7FB0F8, #D5D3FF);
     }
@@ -310,5 +310,138 @@
             font-size: 20px;
             line-height: 24px;
         }
+
+        &__series-logo {
+          width: auto;
+          max-width: 288px;
+        }
+
+        &__series-wrapper {
+          max-width: 288px;
+          flex-direction: column;
+        }
+
+        &__series-brand {
+          width: 100%;
+        }
+
+        &__series-brand:not(:last-child) {
+          margin-bottom: 25px;
+        }
     }
+}
+
+@include mobile {
+  .promotion-r32 {
+    &__title {
+      font-size: 26px;
+      line-height: 30px;
+    }
+
+    &__leadership {
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+    }
+
+    &__leadership-desc {
+      margin-bottom: 25px;
+
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    &__leadership-image {
+      min-width: auto;
+      width: 100%;
+      max-width: 340px;
+      height: 450px;
+      margin: 0;
+
+      background-position: top center;
+    }
+
+    &__desc,
+    &__services-desc,
+    &__climat-online-link,
+    &__mobile-control-link {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    &__series-title,
+    &__slogan,
+    &__services-title {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    &__series-logo {
+      text-align: center;
+      margin: 0 auto 25px;
+    }
+
+    &__series-wrapper {
+      margin: 0 auto;
+    }
+
+    &__series-brand {
+      text-align: center;
+    }
+
+    &__mobile-control-logo {
+        width: 250px;
+        height: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+
+        background-size: cover;
+    }
+
+    &__app {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__app-icon {
+      margin-right: 0;
+    }
+
+    &__app-links {
+      text-align: center;
+    }
+
+    &__app-links-title {
+      margin-bottom: 25px;
+    }
+
+    &__mobile-control-image {
+      height: auto;
+      padding-top: 115%;
+    }
+
+    &__climat-online {
+      margin-bottom: 80px;
+    }
+
+    &__climat-online-logo {
+        width: 202px;
+        height: 55px;
+        margin: 0 auto 30px;
+
+        background-size: cover;
+    }
+
+    &__climat-online-image {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    &__terms-container {
+      text-align: center;
+    }
+  }
 }
